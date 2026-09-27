@@ -361,7 +361,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.7, duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-            className="relative z-10 -mt-8 mr-2 ml-4 sm:mr-4 sm:ml-8"
+            className="relative z-10 -mt-1 mr-2 ml-4 sm:mr-4 sm:ml-8"
           >
             <motion.div
               style={reduce ? undefined : { x: codeX, y: codeY }}
@@ -378,7 +378,7 @@ export default function Hero() {
               />
 
               {/* Barra superior */}
-              <div className="relative mb-4 flex items-center gap-1.5 border-b border-white/5 pb-3">
+              <div className="relative mb-6 flex items-center gap-1.5 border-b border-white/5 pb-3">
                 <span className="h-2.5 w-2.5 rounded-full bg-red-400/70" />
                 <span className="h-2.5 w-2.5 rounded-full bg-yellow-400/70" />
                 <span className="h-2.5 w-2.5 rounded-full bg-green-400/70" />

@@ -30,9 +30,11 @@ export const projects: Project[] = [
     liveUrl: "https://licittudo.com.br/",
   },
   {
-    title: "Introdução a AWS — apresentação técnica",
+    title: "Pixly-front",
     description:
-      "Palestra sobre conceitos de nuvem, como surgiu e quais são os principais serviços AWS",
-    stack: ["AWS", "Arquitetura de nuvem"],
+      "Interface de uma mini rede social desenvolvida com React.js e TypeScript, com foco em uma experiência moderna, responsiva e intuitiva para interação entre usuários.",
+    stack: ["ReactJs", "TypeScript", "Vite", "Axios"],
+    repoUrl: "https://github.com/DuduNeri/pixly-front",
+    liveUrl: "https://pixly-front.vercel.app/login",
   },
 ];

@@ -18,11 +18,7 @@ const jobs: Job[] = [
     location: "São Paulo, Brasil · Remoto",
     description:
       "Atuação com foco em AWS, automação de infraestrutura, pipelines CI/CD, gerenciamento de ambientes, monitoramento e suporte às equipes de desenvolvimento.",
-    highlights: [
-      "AWS",
-      "Automação de infraestrutura",
-      "CI/CD",
-    ],
+    highlights: ["AWS", "Automação de infraestrutura", "CI/CD"],
   },
   {
     role: "Suporte Técnico / Desenvolvedor Front-end",
@@ -30,7 +26,7 @@ const jobs: Job[] = [
     period: "ago 2025 — mai 2026",
     location: "São Raimundo Nonato, Piauí · Híbrido",
     description:
-      "Apoio no desenvolvimento e manutenção de funcionalidades da plataforma, seguindo boas práticas de programação e orientação do time técnico.",
+      "Atuação com suporte técnico avançado aos usuários da plataforma, realizando análise e resolução de problemas, identificação de falhas e acompanhamento de solicitações. Além disso, participação no desenvolvimento front-end de projetos, contribuindo para a implementação de novas funcionalidades, melhorias de interface e aprimoramento da experiência dos usuários.",
     highlights: [
       "Desenvolvimento front-end",
       "Suporte técnico a usuários",

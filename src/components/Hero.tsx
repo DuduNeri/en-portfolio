@@ -256,7 +256,8 @@ export default function Hero() {
           {/* Stack */}
           <motion.ul
             variants={item}
-            className="mt-12 flex flex-wrap items-center gap-x-3 gap-y-3 text-xs text-muted"
+            className="mt-12 flex flex-wrap items-center gap-x-3 gap-y-3 text-xs text-muted cursor-pointer
+              "
           >
             {techs.map((tech) => (
               <li key={tech}>
@@ -352,7 +353,7 @@ export default function Hero() {
               }`}
             >
               <span className="h-1.5 w-1.5 rounded-full bg-emerald-400 shadow-[0_0_8px] shadow-emerald-400" />
-              API respondendo
+               Disponível
             </div>
           </motion.div>
 
